@@ -1,10 +1,10 @@
-package com.mahin.daos;
+package com.mahin.services;
 
 import java.util.List;
 
 import com.mahin.models.Users;
 
-public interface UserDAO {
+public interface UsersService {
 
 	public void addUser(Users user);
     public void updateUser(Users user);

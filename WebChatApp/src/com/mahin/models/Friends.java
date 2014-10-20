@@ -39,7 +39,7 @@ public int getRank() {
 public void setRank(int rank) {
 	this.rank = rank;
 }
-public boolean isGranted() {
+public boolean getGranted() {
 	return granted;
 }
 public void setGranted(boolean granted) {

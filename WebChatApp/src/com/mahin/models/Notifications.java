@@ -14,7 +14,7 @@ public class Notifications {
 		private long  notificationsid;
 		private long  senderid;
 		private long  receiverid;
-		private long  groupssid;
+		private long  groupsid;
 		private String type;
 		private java.sql.Timestamp date;
 		
@@ -36,12 +36,10 @@ public class Notifications {
 		public void setReceiverid(long receiverid) {
 			this.receiverid = receiverid;
 		}
-		public long getGroupssid() {
-			return groupssid;
+		public long getGroupsid() {
+			return groupsid;
 		}
-		public void setGroupssid(long groupssid) {
-			this.groupssid = groupssid;
-		}
+		
 		public String getType() {
 			return type;
 		}
@@ -53,5 +51,8 @@ public class Notifications {
 		}
 		public void setDate(java.sql.Timestamp date) {
 			this.date = date;
+		}
+		public void setGroupsid(long groupsid) {
+			this.groupsid = groupsid;
 		}
 }

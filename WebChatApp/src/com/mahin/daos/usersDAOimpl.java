@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
 import com.mahin.models.Users;
 
 @Repository
-public class usersDAOimpl implements userDAO{
+public class UsersDAOimpl implements UsersDAO{
 
 	 @Autowired 
 	 private SessionFactory sessionFactory;

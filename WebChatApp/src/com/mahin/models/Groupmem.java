@@ -40,7 +40,7 @@ public class Groupmem {
 	public void setRole(String role) {
 		this.role = role;
 	}
-	public boolean isIsmember() {
+	public boolean getIsmember() {
 		return ismember;
 	}
 	public void setIsmember(boolean ismember) {
